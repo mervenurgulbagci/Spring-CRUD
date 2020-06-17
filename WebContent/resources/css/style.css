@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+html, body {
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: 
+		/* 	font-size: 10px; */
+}
+
+table {
+	border-collapse: collapse;
+	border-bottom: 1px solid gray;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	width: 100%;
+}
+
+th {
+	border-bottom: 1px solid gray;
+	background: none repeat scroll 0 0 #4267B2;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+tr {
+	border-top: 1px solid gray;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background: #FFFFFF
+}
+
+tr:nth-child(odd) {
+	background: #BBBBBB
+}
+
+#header {
+	width: 100%;
+	background: #4267B2;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 15px 0px;
+	color: #FFFFFF;
+}
+
+#header h2 {
+	width: 100%;
+	margin: auto;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.update-button {
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 80px;
+	padding: 2px 5px;
+	color: white;
+	background: #45f152;
+}
+
+.delete-button {
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 80px;
+	padding: 2px 5px;
+	background: red;
+	color: white;
+}
+
+.vazgec, .ana-sayfa {
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 80px;
+	padding: 2px 5px;
+	background: green;
+	color: white;
+}
+
+.kaydet, .ekle {
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 100px;
+	padding: 2px 5px;
+	background:  #45f152;
+	color: white;
+}
