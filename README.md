@@ -1,5 +1,8 @@
 # Spring-CRUD 
-##Create-Read-Update-Delete
+-Create
+-Read
+-Update
+-Delete
 
 This project is create with Spring. 
 ![Login1](https://user-images.githubusercontent.com/5539006/91186169-5e340700-e6f7-11ea-8bd4-5c2a06cb1253.png)
